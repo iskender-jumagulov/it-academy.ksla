@@ -1,0 +1,14 @@
+        .page-img {
+            float: left;
+            width: 300px;
+            height: 160px;
+            padding: 20px;
+        }
+        
+        div {
+            display: block;
+        }
+        
+        .about-news {
+            margin-top: 90px;
+        }

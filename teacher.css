@@ -1,0 +1,111 @@
+            body {
+                margin: 0;
+            }
+            
+            .aside {
+                width: 30%;
+                background-color: #c3c6d6;
+                height: auto;
+                border: gray 1px dashed;
+                text-align: center;
+            }
+            
+            .main {
+                width: 70%;
+                height: 100vh;
+                display: flex;
+            }
+            
+            .section-resume {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                background-color: #EBEBEB;
+            }
+            
+            .education {
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 20px;
+                border-bottom: 3px solid #256292;
+                padding-bottom: 20px;
+                padding-right: 30px;
+            }
+            
+            .ul-div-section {
+                margin-top: 20px;
+                top: 30px;
+                list-style-type: none;
+                display: flex;
+            }
+            
+            li {
+                list-style: none;
+                margin: 30px;
+            }
+            
+            .name-last {
+                font-size: 18px;
+                font-weight: bold;
+                width: auto;
+            }
+            
+            .second-aside {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .img-teacher {
+                margin: auto;
+                justify-content: center;
+            }
+            
+            span {
+                margin: 20px;
+            }
+            
+            .post {
+                margin-bottom: 20px;
+                background-color: #256292;
+                padding: 18px;
+                font-size: 17px;
+                color: white;
+            }
+            
+            .stprepod {
+                margin-top: 50px;
+            }
+            
+            .border-bottom {
+                line-height: 50%;
+            }
+            
+            .edu5 {
+                font-size: 20px;
+                font-weight: bold;
+                margin-left: 20px;
+                border-bottom: 3px solid #256292;
+                padding-bottom: 20px;
+                text-align: start;
+                width: 300px;
+                padding-right: 30px;
+            }
+            
+            .composition {
+                color: white;
+            }
+            
+            .d-frame-map {
+                width: 400px;
+                height: 300px;
+            }
+            
+            .edu22 {
+                margin-top: 70px;
+            }
+            
+            .about-post {
+                font-size: 17px;
+            }

@@ -1,0 +1,120 @@
+/* CSS Document */
+
+.header a {
+    color: #22679f;
+}
+
+.nav-logo {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+.nav-const {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.nav-info {
+    margin-top: 22px;
+}
+
+.nav-logo ul li {
+    display: inline;
+    margin-left: 100px;
+}
+
+.nav-icon {
+    width: 15px;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    background: #e3e3e3;
+    transition: .3s;
+}
+
+.dws-menu {
+    margin-right: auto;
+    margin-left: 200px;
+}
+
+.header-btn {
+    background: #22679f;
+    padding: 20px;
+    border: none;
+    color: #fff;
+}
+
+nav ul {
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: rgba(63, 52, 52, 0.404);
+}
+
+nav a {
+    display: block;
+    padding: 0 50px;
+    line-height: 60px;
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 200px;
+    margin-left: 15px;
+}
+
+
+/* Hide Dropdowns by Default */
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    transition: all .3s;
+    z-index: 200;
+    top: 60px;
+    /* the height of the main nav */
+}
+
+
+/* Display Dropdowns on Hover */
+
+nav ul li:hover>ul {
+    display: inherit;
+    background: #dbdbdb;
+}
+
+
+/* Fisrt Tier Dropdown */
+
+nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+/* Second, Third and more Tiers	*/
+
+nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+}
+
+.nav-input {
+    margin: auto;
+    margin-left: auto;
+    margin-right: 15px;
+}

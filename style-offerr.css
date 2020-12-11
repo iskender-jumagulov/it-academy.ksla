@@ -1,0 +1,14 @@
+.main-teacher {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    padding: auto;
+    margin: 30px 0px 30px 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.name-teach {
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,181 @@
+                body {
+                    margin: 0;
+                    background-color: #c3c6d6;
+                }
+                
+                .section-teachers {
+                    width: 100%;
+                    height: 318px;
+                    background-image: url(images/block\ teachers.jpg );
+                    border-image-repeat: no-repeat;
+                    background-size: cover;
+                    filter: opacity(1 blue)
+                }
+                
+                .main {
+                    width: 80%;
+                    display: flex;
+                    padding: 20px;
+                    justify-content: center;
+                    margin: auto;
+                }
+                
+                .personal {
+                    height: 20px;
+                    padding-left: 30px;
+                    padding-top: 30px;
+                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 23px;
+                    color: #000000;
+                }
+                
+                .name-teach {
+                    border-bottom: solid 2px #FFD52E;
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 20px;
+                    Line-Height: 23.44px;
+                    color: black;
+                    width: 330px;
+                }
+                
+                .class1 {
+                    display: block;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                
+                span {
+                    padding: 0px;
+                    font-size: 10px;
+                    line-height: 13.62px;
+                    font-weight: 500;
+                    font-family: sans-serif;
+                    align-content: center;
+                    text-align: center;
+                }
+                
+                .pagination {
+                    margin-bottom: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+                }
+                
+                .pages a {
+                    color: black;
+                }
+                
+                .mobile-pagination {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                select {
+                    margin-right: 15px;
+                    font-weight: normal;
+                    display: block;
+                    padding: 10px 30px 10px 10px;
+                    font-size: 1em;
+                    appearance: none;
+                    background: white url(https://i.imgur.com/kuvm7lH.png) no-repeat;
+                    background-position: right 12px center;
+                    text-decoration: none;
+                    color: #333;
+                    border: 1px solid #ccc;
+                }
+                
+                .next {
+                    background: #256292;
+                    color: white;
+                    height: 42px;
+                    line-height: 44px;
+                    padding: 0 20px;
+                    text-decoration: none;
+                }
+                
+                .next:hover {
+                    background-color: goldenrod;
+                    color: black;
+                }
+                
+                .prev {
+                    background-color: #256192;
+                    color: white;
+                    width: auto;
+                    padding: 0 20px;
+                    line-height: 44px;
+                    height: 42px;
+                    text-decoration: none;
+                }
+                
+                .prev:hover {
+                    background-color: goldenrod;
+                    color: black;
+                    text-decoration: white
+                }
+                
+                .sort-teacher {
+                    display: flex;
+                    justify-content: center;
+                    width: 770px;
+                    height: 23px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    display: flex;
+                    position: relative;
+                    margin: auto;
+                    top: -50px;
+                    z-index: 1;
+                }
+                
+                .admin {
+                    width: 250px;
+                    z-index: 1;
+                    background-color: #256292;
+                    color: white;
+                    padding: 30px;
+                    justify-content: center;
+                    display: flex;
+                    box-shadow: 5px 5px 4px 0px #000000 25;
+                    position: relative;
+                    text-decoration: none;
+                }
+                
+                .admin:hover {
+                    background-color: #FFD52E;
+                    color: black;
+                }
+                
+                .icon-home {
+                    display: flex;
+                    margin-left: 40px;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                    padding-top: 70px;
+                    color: white;
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 35px;
+                    line-height: 42px;
+                }
+                
+                .icon-home p {
+                    color: #FFD52E;
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 15px;
+                    line-height: 17px;
+                }
+                
+                .paginator-link {
+                    color: black;
+                    text-decoration: none;
+                }
