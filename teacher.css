@@ -109,3 +109,10 @@
             .about-post {
                 font-size: 17px;
             }
+            
+            .nurlan-saitov-img {
+                width: 245px;
+                height: 244px;
+                border-radius: 50%;
+                border: 3px solid white;
+            }

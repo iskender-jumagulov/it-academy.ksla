@@ -99,7 +99,7 @@ h1 {
     width:auto;
     height:30px;
     left: 320px;
-    top: 1195px;
+    top: 1265px;
     color: black;
     font-size: 19px;
     font-weight: bold;
@@ -197,7 +197,7 @@ top: 290px;
     }
 }  
 
-/* Медия скрин */
+
 
 @media (max-width: 750px) {
     .it-acc{
@@ -262,7 +262,7 @@ left: 10px;
 
 @media (max-width: 750px) {
     .block2{
-        width: 368pxpx;
+        width: 421px;
         height: 649px;
                 
              left: 0;
@@ -364,3 +364,13 @@ left: 10px;
     }
 
   }
+
+  /* Медия скрин */
+@media (max-width: 750px) {
+    footer h4{
+        color: #fff;
+        width: 50px;
+        line-height: 40px;
+    }
+}  
+

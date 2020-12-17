@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 h1,h2,h3,h4,h5,h6{
     color: #22679f;
@@ -13,7 +13,9 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     min-height: 40%;
 }
-
+section{
+    padding-top: 15px;
+}
 .icons img{
     width: 100px;
 }
@@ -40,9 +42,26 @@ h1,h2,h3,h4,h5,h6{
     background-image: url(images/home-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    
-
-    
+    background-size: cover;   
+}
+.offer-text-ind{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding-top: 50px;
+}
+.offer-text-ind .h3 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-text-ind .h3 h3{
+    color: #FFD52E;
+}
+.offer-text-ind .p {
+    width: 70%;
+    color: #fff;
 }
 .offer-about-info{
     margin: auto;
@@ -69,7 +88,7 @@ h1,h2,h3,h4,h5,h6{
     /* width: 80%; */
     margin: auto;
     display: flex;
-    padding-top: 250px;
+    padding-top: 50px;
     padding-bottom: 250px;
 }
 .offer-btn {
@@ -102,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .advantages-icon{
     text-align: center;
-    width: 20%;
+    width: 30%;
     color: #4a4a4a;
     
 }
@@ -123,7 +142,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     margin: auto;
     margin-top: 15px;
-    width: 60%;
+    width: 70%;
     color: #999999;
 }
 .advantages-laptop{
@@ -227,16 +246,28 @@ iframe{
 .top-partners{
     display: flex;
 }
+.slide{
+    display: none;
+    transition: all .6s;
+}
 .partners{
     margin: auto;
     padding: 20px;
+    transition: .6s;
+
 }
+.slides-arrow{
+    width: 25px;
+    margin: auto;
+    cursor: pointer;
+}
+
 /* Стили для футера */
 footer{
     background: #22679f;
     display: flex;
     color: #fff;
-    padding: 15px;
+    padding: 40px;
     margin: 0;
 }
 footer h4{
@@ -267,13 +298,10 @@ footer ul{
     margin-left: 50px;
     display: flex;
 }
-.social-networks img{
-    width: 50px;
-}
 .social-networks div p{
     opacity: 0;
-    transition: all .3s;
-    transform: rotate(90deg);
+    transition: all .6s;
+    transform: rotate(-90deg);
     position: relative;
     text-transform: uppercase;
     line-height: 50px;
@@ -287,9 +315,42 @@ footer ul{
     margin: 0;
     padding: 25px;
 }
+body .instagram{
+    background-image: url(images/instagram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    transition: all .6s;
+}
+body .instagram:hover{
+    background-image: url(images/instagram-color.svg);
+}
+body .facebook{
+    background-image: url(images/facebook.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    transition: all .6s;
+}
+body .facebook:hover{
+    background-image: url(images/facebook-color.svg);
+}
+body .telegram{
+    background-image: url(images/telegram.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    transition: all .6s;
+}
+body .telegram:hover{
+    background-image: url(images/telegram-color.svg);
+}
 .social-networks div:hover p{
     opacity: 1;
-    transform: rotate(90deg) translateX(-70px);
+    transform: rotate(-90deg) translateX(40px);
 
 }
 .map{
@@ -437,15 +498,14 @@ footer ul{
     height: 300px;
 
 }
+.section-applicants{
+    background: #f1f1f1;
+}
 .applicants-content{
     display: flex;
     margin: 80px;
-    background: #F1F1F1;
-    width: 80%;
-    margin: auto;
-    box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
-    font-size: 20px;
-    
+    width: 90%;
+    margin: auto;    
 }
 .applicants-text{
     text-align: left;
@@ -453,7 +513,6 @@ footer ul{
     margin-left: 15px;
 }
 .applicants-text-color{
-    width: 60%;
     padding: 33px;
     margin: auto;
     background: yellow;
@@ -466,6 +525,8 @@ footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px;
+    padding-right: 145px;
 
 }
 .applicants-text h2{
