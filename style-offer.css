@@ -2,11 +2,21 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+ul,ol{
+    padding-inline-start: 15px;
 }
 h1,h2,h3,h4,h5,h6{
     color: #22679f;
     font-family: 'Rodoto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;    
 }
 .particles-js-canvas-el{
     position: absolute;
@@ -222,7 +232,6 @@ iframe{
 /* стили для ТОП СТУДЕНТОВ */
 .top-students{
     display: flex;
-    width: 80%;
     margin: auto;
     text-align: center;
 }
@@ -375,6 +384,9 @@ body .telegram:hover{
     color: #000;
 
 }
+.section-directions{
+    line-height: 19px;
+}
 .directions-wrapper section{
     padding-top: 15px;
 
@@ -413,7 +425,7 @@ body .telegram:hover{
 
 }
 .directions-text p{
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .directions-text h2{
     text-align: left;
@@ -465,9 +477,11 @@ body .telegram:hover{
     margin-top: 70px;
     margin-bottom: 70px;
 }
+.directions-img-2 img{
+    height: 560px;
+}
 .directions-img img{
-    
-    height: 500px;
+    height: 330px;
 }
 /* Стили для страницы Абитуриентам */
 .applicants-wrapper h1,h2,h3,h4,h5,h6{
@@ -546,7 +560,6 @@ body .telegram:hover{
     padding: 30px;
     text-align: left;
     color: #fff;
-
 }
 .applicants-text-img-2{
     background:  #fff;
@@ -570,6 +583,10 @@ body .telegram:hover{
 .applicants-text-img-3 h3{
     color: #fff;
     text-align: left;
+}
+.text-applicants{
+    width: 92%;
+    margin: auto;
 }
 
 /* Стили для страницы Студенческий совет */
@@ -613,6 +630,7 @@ body .telegram:hover{
     margin: auto;
     text-align: center;
     padding-top: 30px;
+    flex-wrap: wrap;
 }
 .council-students,.council-students h4{
     width: 300px;
@@ -643,10 +661,9 @@ body .telegram:hover{
 .council-info-text{
     width: 50%;
     text-align: center;
-    margin-top:100px;
 }
 .council-info-text h3{
-    padding: 50px;
+    padding-top: 50px;
 }
 .council-info-text p{
     
@@ -688,24 +705,33 @@ body .telegram:hover{
 
 
 }
+.section-mugs-info{
+    background: #dfdfdf;
+}
 .mugs-info-text{
     width: 100%;
     text-align: center;
-    background: #dfdfdf;
 }
 .mugs-info-text p{
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: left;
     padding: 50px;
 }
 .mugs-clubs{
-    padding: 15px;
+    padding: 0px 35px 35px 35px;
     display: flex;
+}
+.section-mugs-clubs{
+    padding: 0px;
 }
 .mugs-clubs-container{
     width: 33%;
     padding-right: 5px;
+    color: #fff;
+}
+.mugs-clubs-container a{
+    text-decoration: none;
     color: #fff;
 }
 .mugs-clubs-container h1{
@@ -714,7 +740,7 @@ body .telegram:hover{
 }
 .voice{
     background-image: url(images/voice-bg.jpg);
-    height: 550px;
+    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5px;
@@ -728,7 +754,7 @@ body .telegram:hover{
 }
 .chess{
     background-image: url(images/chess-bg.jpg);
-    height: 29%;
+    height: 29.5%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5px;
@@ -752,7 +778,7 @@ body .telegram:hover{
 }
 .dance{
     background-image: url(images/dance-bg.jpg);
-    height: 49%;
+    height: 49.5%;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 5px;
