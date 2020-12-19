@@ -160,7 +160,7 @@ section {
 }
 
 .icon-hr {
-    width: 300px;
+    width: 150px;
     margin: auto;
     margin-top: 10px;
     padding: 0;
@@ -179,6 +179,7 @@ section {
     margin-top: 15px;
     width: 70%;
     color: #999999;
+    height: 50vh;
 }
 
 .advantages-laptop {
@@ -538,6 +539,7 @@ h6 {
     padding: 20px;
     padding-top: 70px;
     text-align: left;
+    padding-right: 100px;
 }
 
 .directions-text-2 h2 {
@@ -621,13 +623,18 @@ h6 {
     text-align: left;
     margin: auto;
     margin-left: 15px;
+    padding: 19px;
 }
 
 .applicants-text-color {
     padding: 33px;
     margin: auto;
-    background: yellow;
+    background: #FFD52E;
     color: #2E2D2D;
+}
+
+ol li {
+    padding-top: 10px;
 }
 
 .applicants-text-bg {
