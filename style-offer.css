@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
@@ -8,174 +8,204 @@ body{
     line-height: 16px;
     letter-spacing: 0.1em;
 }
-ul,ol{
+
+ul,
+ol {
     padding-inline-start: 15px;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #22679f;
     font-family: 'Rodoto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    letter-spacing: 0em;    
+    letter-spacing: 0em;
 }
-.particles-js-canvas-el{
+
+.particles-js-canvas-el {
     position: absolute;
     width: 100%;
     min-height: 40%;
 }
-section{
-    padding-top: 15px;
+
+section {
+    padding-top: 65px;
 }
-.icons img{
+
+.icons img {
     width: 100px;
 }
-.icons p{
+
+.icons p {
     width: 300px;
     font-size: 14px;
 }
-.icons{
+
+.icons {
     color: #fff;
     margin: 30px auto;
     text-align: center;
-    
 }
-.icons h3{
+
+.icons h3 {
     color: #fff;
-    
 }
-.header{
+
+.header {
     position: static;
     width: 100%;
     min-height: 100px;
 }
-.section-offer{
+
+.section-offer {
     background-image: url(images/home-bg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
 }
-.offer-text-ind{
+
+.offer-text-ind {
     display: flex;
     margin: auto;
     width: 60%;
     padding-top: 50px;
 }
+
 .offer-text-ind .h3 {
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.offer-text-ind .h3 h3{
+
+.offer-text-ind .h3 h3 {
     color: #FFD52E;
 }
+
 .offer-text-ind .p {
     width: 70%;
     color: #fff;
 }
-.offer-about-info{
+
+.offer-about-info {
     margin: auto;
     display: flex;
     width: 70%;
     padding-top: 50px;
 }
-.offer-about-text{
+
+.offer-about-text {
     width: 50%;
 }
-.offer-about-info h1{
+
+.offer-about-info h1 {
     margin: auto;
     color: #FFD52E;
     font-size: 40px;
     width: 100%;
     line-height: 87px;
 }
-.offer-about-info p{
+
+.offer-about-info p {
     margin: auto;
     color: #ffffff;
     font-size: 25px;
 }
-.offer-icons{
+
+.offer-icons {
     /* width: 80%; */
     margin: auto;
     display: flex;
     padding-top: 50px;
     padding-bottom: 250px;
 }
+
 .offer-btn {
     position: relative;
     background: none;
     border: 2px solid #FFD52E;
-  
 }
-.offer-btn a{
-    display:block;
-	padding: 10px;	
-	line-height: 20px;
-    text-decoration:none;
-    color:  #FFD52E;
-    
+
+.offer-btn a {
+    display: block;
+    padding: 10px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #FFD52E;
 }
-.offer-btn:hover{
+
+.offer-btn:hover {
     background: #FFD52E;
     color: #030303;
-  
 }
-.offer-btn:hover > a{
+
+.offer-btn:hover>a {
     color: #030303;
     color: #4a4a4a;
-  
 }
-.icon-text{
+
+.icon-text {
     color: black;
-    
 }
-.advantages-icon{
+
+.advantages-icon {
     text-align: center;
     width: 30%;
     color: #4a4a4a;
-    
 }
-.icon-hr{
+
+.icon-hr {
     width: 300px;
     margin: auto;
     margin-top: 10px;
     padding: 0;
-	height: 2px;
-	border: none;
-	background: #FFD52E;
+    height: 2px;
+    border: none;
+    background: #FFD52E;
 }
-.advantages-icon h4{
+
+.advantages-icon h4 {
     text-align: center;
-    
 }
-.advantages{
+
+.advantages {
     display: flex;
     margin: auto;
     margin-top: 15px;
     width: 70%;
     color: #999999;
 }
-.advantages-laptop{
+
+.advantages-laptop {
     width: 40%;
     margin: auto;
     text-align: center;
-    
 }
-.advantages-laptop img{
+
+.advantages-laptop img {
     margin: 0;
     padding: 0;
-    
 }
-.section h2{
+
+.section h2 {
     text-align: center;
     color: #256292;
 }
-.bot-icon{
+
+.bot-icon {
     width: 300px;
     margin: auto;
 }
+
+
 /* Стили для новостной ленты */
-.section-news{
+
+.section-news {
     margin: auto;
     margin-top: 15px;
     width: 100%;
@@ -184,130 +214,161 @@ section{
     background-size: cover;
     left: -50;
 }
-.news{
+
+.news {
     display: flex;
     margin: auto;
     width: 100%;
 }
-.news-info{
+
+.news-info {
     width: 30%;
     margin: 15px;
     margin: auto;
     transition: all .6s;
 }
-.news-img{
-    width: 30%;   
+
+.news-img {
+    width: 30%;
 }
-.news-img img{
+
+.news-img img {
     width: 100%;
     margin-bottom: 10px;
 }
-.news-frame{
+
+.news-frame {
     width: 30%;
     margin: 15px;
 }
-.news-frame p,h4{
+
+.news-frame p,
+h4 {
     width: 450px;
 }
+
 .news-btn {
     position: relative;
     background: #FFD52E;
     border: 1px solid #FFD52E;
-  
 }
-.news-btn a{
-    display:block;
-	padding: 10px 30px 10px 30px;	
-	line-height: 20px;
-    text-decoration:none;
+
+.news-btn a {
+    display: block;
+    padding: 10px 30px 10px 30px;
+    line-height: 20px;
+    text-decoration: none;
     color: #000;
-    
 }
+
+
 /* css for frame  */
-iframe{
+
+iframe {
     width: 100%;
     height: 100%;
     border: 1px solid black;
 }
+
+
 /* стили для ТОП СТУДЕНТОВ */
-.top-students{
+
+.top-students {
     display: flex;
     margin: auto;
     text-align: center;
 }
-.students,.students h4{
+
+.students,
+.students h4 {
     width: 300px;
     text-align: center;
     color: black;
 }
-.students{
+
+.students {
     margin: auto;
 }
-.students img{
+
+.students img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
+
+
 /* Стили для Наши парнёры */
-.section-partners{
+
+.section-partners {
     background: #dfdfdf;
 }
-.top-partners{
+
+.top-partners {
     display: flex;
 }
-.slide{
+
+.slide {
     display: none;
     transition: all .6s;
 }
-.partners{
+
+.partners {
     margin: auto;
     padding: 20px;
     transition: .6s;
-
 }
-.slides-arrow{
+
+.slides-arrow {
     width: 25px;
     margin: auto;
     cursor: pointer;
 }
 
+
 /* Стили для футера */
-footer{
+
+footer {
     background: #22679f;
     display: flex;
     color: #fff;
     padding: 40px;
     margin: 0;
 }
-footer h4{
+
+footer h4 {
     color: #fff;
     width: 150px;
     line-height: 40px;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: #fff;
     line-height: 40px;
 }
-footer ul li{
+
+footer ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
     border-bottom: 1px solid;
     width: 170px;
 }
-footer ul{
+
+footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-.social-networks{
+
+.social-networks {
     width: 30%;
     margin-top: 75px;
     margin-left: 50px;
     display: flex;
 }
-.social-networks div p{
+
+.social-networks div p {
     opacity: 0;
     transition: all .6s;
     transform: rotate(-90deg);
@@ -316,15 +377,16 @@ footer ul{
     line-height: 50px;
     margin: 0;
     padding: 0;
-
 }
-.social-networks div{
+
+.social-networks div {
     width: 50px;
     height: 50px;
     margin: 0;
     padding: 25px;
 }
-body .instagram{
+
+body .instagram {
     background-image: url(images/instagram.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -332,10 +394,12 @@ body .instagram{
     padding: 0;
     transition: all .6s;
 }
-body .instagram:hover{
+
+body .instagram:hover {
     background-image: url(images/instagram-color.svg);
 }
-body .facebook{
+
+body .facebook {
     background-image: url(images/facebook.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -343,10 +407,12 @@ body .facebook{
     padding: 0;
     transition: all .6s;
 }
-body .facebook:hover{
+
+body .facebook:hover {
     background-image: url(images/facebook-color.svg);
 }
-body .telegram{
+
+body .telegram {
     background-image: url(images/telegram.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -354,185 +420,217 @@ body .telegram{
     padding: 0;
     transition: all .6s;
 }
-body .telegram:hover{
+
+body .telegram:hover {
     background-image: url(images/telegram-color.svg);
 }
-.social-networks div:hover p{
+
+.social-networks div:hover p {
     opacity: 1;
     transform: rotate(-90deg) translateX(40px);
-
 }
-.map{
+
+.map {
     width: 30%;
     margin-left: auto;
     margin-right: 0;
     display: flex;
 }
-.section-students{
+
+.section-students {
     padding: 15px;
 }
-.top-students{
+
+.top-students {
     padding: 50px;
 }
-.web-map{
+
+.web-map {
     width: 200px;
 }
+
+
 /* Стили для страницы направления */
-.directions-wrapper h1,h2,h3,h4,h5,h6{
+
+.directions-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     color: #000;
-
 }
-.section-directions{
+
+.section-directions {
     line-height: 19px;
 }
-.directions-wrapper section{
+
+.directions-wrapper section {
     padding-top: 15px;
-
 }
-.directions{
 
+.directions {
     margin-left: 71px;
     text-align: left;
 }
-.directions h2{
+
+.directions h2 {
     text-align: left;
     padding-top: 120px;
     color: #fff;
     margin-bottom: 15px;
 }
-.section-directions-offer{
+
+.section-directions-offer {
     width: 100%;
     background-image: url(images/directions-bg.jpg);
     background-size: cover;
     height: 300px;
-
 }
-.directions-content{
+
+.directions-content {
     display: flex;
     margin: 80px;
     background: #F1F1F1;
     width: 80%;
     margin: auto;
     box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
-    
 }
-.directions-text{
+
+.directions-text {
     padding: 20px;
     padding-top: 70px;
     text-align: left;
-
 }
-.directions-text p{
+
+.directions-text p {
     margin-top: 30px;
 }
-.directions-text h2{
+
+.directions-text h2 {
     text-align: left;
 }
-.directions-text hr{
+
+.directions-text hr {
     width: 300px;
     color: gold;
-    
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0;
-
 }
-.directions-img img{
+
+.directions-img img {
     width: 500px;
     padding: 20px;
 }
-.directions-content-2{
+
+.directions-content-2 {
     display: flex;
     background-image: url(images/bg-pi.jpg);
     width: 100%;
     box-shadow: 6px 7px 10px rgba(0, 0, 0, 0.25);
     color: #fff;
-    
 }
-.directions-text-2{
+
+.directions-text-2 {
     padding: 20px;
     padding-top: 70px;
     text-align: left;
-    
 }
-.directions-text-2 h2{
+
+.directions-text-2 h2 {
     text-align: left;
-    
 }
-.directions-text-2 hr{
+
+.directions-text-2 hr {
     width: 300px;
     color: gold;
-    
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0;
-
 }
-.directions-content-2 h2{
+
+.directions-content-2 h2 {
     color: #fff;
 }
-.directions-img-2{
+
+.directions-img-2 {
     margin-top: 70px;
     margin-bottom: 70px;
 }
-.directions-img-2 img{
+
+.directions-img-2 img {
     height: 560px;
 }
-.directions-img img{
+
+.directions-img img {
     height: 330px;
 }
+
+
 /* Стили для страницы Абитуриентам */
-.applicants-wrapper h1,h2,h3,h4,h5,h6{
+
+.applicants-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     color: #000;
-
 }
-.applicants-wrapper section{
+
+.applicants-wrapper section {
     padding-top: 15px;
-
 }
-.applicants{
 
+.applicants {
     margin-left: 71px;
     text-align: left;
 }
-.applicants h2{
+
+.applicants h2 {
     text-align: left;
     padding-top: 120px;
     color: #fff;
     margin-bottom: 15px;
 }
-.section-applicants-offer{
+
+.section-applicants-offer {
     width: 100%;
     background-image: url(images/welcome.png);
     background-size: cover;
     height: 300px;
-
 }
-.section-applicants{
+
+.section-applicants {
     background: #f1f1f1;
 }
-.applicants-content{
+
+.applicants-content {
     display: flex;
     margin: 80px;
     width: 90%;
-    margin: auto;    
+    margin: auto;
 }
-.applicants-text{
+
+.applicants-text {
     text-align: left;
     margin: auto;
     margin-left: 15px;
 }
-.applicants-text-color{
+
+.applicants-text-color {
     padding: 33px;
     margin: auto;
     background: yellow;
     color: #2E2D2D;
 }
-.applicants-text-bg{
+
+.applicants-text-bg {
     background-image: url(images/stud-bg.jpg);
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -541,90 +639,99 @@ body .telegram:hover{
     align-items: center;
     padding: 60px;
     padding-right: 145px;
-
 }
-.applicants-text h2{
+
+.applicants-text h2 {
     text-align: left;
 }
-.applicants-text hr{
+
+.applicants-text hr {
     width: 300px;
     color: gold;
-    
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0;
-
 }
-.applicants-text-img-1{
+
+.applicants-text-img-1 {
     background: rgba(37, 98, 146);
     padding: 30px;
     text-align: left;
     color: #fff;
 }
-.applicants-text-img-2{
-    background:  #fff;
+
+.applicants-text-img-2 {
+    background: #fff;
     text-align: left;
     color: #000;
     display: flex;
-    
-
 }
-.applicants-text-img-3{
-    background:#4A4A4A;
+
+.applicants-text-img-3 {
+    background: #4A4A4A;
     padding: 35px;
     color: #fff;
-
 }
-.applicants-text-img-1 h3{
+
+.applicants-text-img-1 h3 {
     color: white;
     margin: auto;
     text-align: left;
 }
-.applicants-text-img-3 h3{
+
+.applicants-text-img-3 h3 {
     color: #fff;
     text-align: left;
 }
-.text-applicants{
+
+.text-applicants {
     width: 92%;
     margin: auto;
 }
 
+
 /* Стили для страницы Студенческий совет */
 
-.council-wrapper h1,h2,h3,h4,h5,h6{
+.council-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     color: #000;
-
 }
-.council-wrapper section{
+
+.council-wrapper section {
     padding-top: 15px;
-
 }
-.council{
 
+.council {
     margin-left: 71px;
     text-align: left;
 }
-.council h2{
+
+.council h2 {
     text-align: left;
     padding-top: 120px;
     color: #fff;
     margin-bottom: 15px;
 }
-.section-council-offer{
+
+.section-council-offer {
     width: 100%;
     background-image: url(images/sutd-soviet-bg.jpg);
     background-size: cover;
     height: 300px;
-
-
 }
-.section-students-council hr{
- height: 50px;
- border: 0;
+
+.section-students-council hr {
+    height: 50px;
+    border: 0;
 }
-.top-council-students{
+
+.top-council-students {
     display: flex;
     width: 100%;
     margin: auto;
@@ -632,113 +739,137 @@ body .telegram:hover{
     padding-top: 30px;
     flex-wrap: wrap;
 }
-.council-students,.council-students h4{
+
+.council-students,
+.council-students h4 {
     width: 300px;
     text-align: center;
     color: black;
 }
-.council-students{
+
+.council-students {
     margin: auto;
 }
-.council-students p{
+
+.council-students p {
     color: #C0C0C0;
 }
-.council-students img{
+
+.council-students img {
     width: 190px;
     height: 190px;
     border-radius: 50%;
 }
-.section-students-council h2{
+
+.section-students-council h2 {
     text-align: center;
     padding: 20px;
-    color:black;
-
+    color: black;
 }
-.council-info{
+
+.council-info {
     display: flex;
     background: #DFDFDF;
 }
-.council-info-text{
+
+.council-info-text {
     width: 50%;
     text-align: center;
 }
-.council-info-text h3{
+
+.council-info-text h3 {
     padding-top: 50px;
 }
-.council-info-text p{
-    
+
+.council-info-text p {
     margin: auto;
     text-align: left;
     padding: 50px;
-    
 }
-.council-info-img{
+
+.council-info-img {
     width: 50%;
 }
-.council-info-img img{
+
+.council-info-img img {
     width: 100%;
-    
 }
+
+
 /* Стили для старницы Клубы и Кружки */
-.mugs-wrapper h1,h2,h3,h4,h5,h6{
+
+.mugs-wrapper h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
     color: #000;
-
 }
-.mugs{
 
+.mugs {
     margin-left: 71px;
     text-align: left;
 }
-.mugs h2{
+
+.mugs h2 {
     text-align: left;
     padding-top: 120px;
     color: #fff;
     margin-bottom: 15px;
 }
-.section-mugs-offer{
+
+.section-mugs-offer {
     width: 100%;
     background-image: url(images/mugs-bg.jpg);
     background-size: cover;
     height: 300px;
-
-
 }
-.section-mugs-info{
+
+.section-mugs-info {
     background: #dfdfdf;
 }
-.mugs-info-text{
+
+.mugs-info-text {
     width: 100%;
     text-align: center;
 }
-.mugs-info-text p{
+
+.mugs-info-text p {
     width: 60%;
     margin: auto;
     text-align: left;
     padding: 50px;
 }
-.mugs-clubs{
+
+.mugs-clubs {
     padding: 0px 35px 35px 35px;
     display: flex;
 }
-.section-mugs-clubs{
+
+.section-mugs-clubs {
     padding: 0px;
 }
-.mugs-clubs-container{
+
+.mugs-clubs-container {
     width: 33%;
     padding-right: 5px;
     color: #fff;
 }
-.mugs-clubs-container a{
+
+.mugs-clubs-container a {
     text-decoration: none;
     color: #fff;
 }
-.mugs-clubs-container h1{
+
+.mugs-clubs-container h1 {
     text-align: left;
     color: #fff;
 }
-.voice{
+
+.voice {
     background-image: url(images/voice-bg.jpg);
     height: 650px;
     background-repeat: no-repeat;
@@ -749,10 +880,12 @@ body .telegram:hover{
     display: flex;
     align-items: flex-end;
 }
-.voice:hover{
+
+.voice:hover {
     background-image: url(images/voice-color-bg.jpg);
 }
-.chess{
+
+.chess {
     background-image: url(images/chess-bg.jpg);
     height: 29.5%;
     background-repeat: no-repeat;
@@ -761,10 +894,12 @@ body .telegram:hover{
     display: flex;
     align-items: flex-end;
 }
-.chess:hover{
+
+.chess:hover {
     background-image: url(images/chess-color-bg.jpg);
 }
-.cinema{
+
+.cinema {
     background-image: url(images/cinema-bg.jpg);
     height: 69%;
     background-repeat: no-repeat;
@@ -773,10 +908,12 @@ body .telegram:hover{
     display: flex;
     align-items: flex-end;
 }
-.cinema:hover{
+
+.cinema:hover {
     background-image: url(images/cinema-color-bg.jpg);
 }
-.dance{
+
+.dance {
     background-image: url(images/dance-bg.jpg);
     height: 49.5%;
     background-repeat: no-repeat;
@@ -785,10 +922,12 @@ body .telegram:hover{
     display: flex;
     align-items: flex-end;
 }
-.dance:hover{
+
+.dance:hover {
     background-image: url(images/dance-color-bg.jpg);
 }
-.english{
+
+.english {
     background-image: url(images/english-bg.jpg);
     height: 49%;
     background-repeat: no-repeat;
@@ -797,47 +936,62 @@ body .telegram:hover{
     display: flex;
     align-items: flex-end;
 }
-.english:hover{
+
+.english:hover {
     background-image: url(images/english-color-bg.jpg);
 }
-.clubs-text{
+
+.clubs-text {
     padding: 30px;
     bottom: 0;
 }
+
+
 /* Клубы И Кружки Кинематрогофия */
-.mugs-cinema{
+
+.mugs-cinema {
     display: flex;
 }
-.mugs-cinema-text{
+
+.mugs-cinema-text {
     width: 50%;
 }
-.mugs-cinema-text-bg{
+
+.mugs-cinema-text-bg {
     background: #dfdfdf;
     width: 50%;
     margin: auto;
     padding-top: 30px;
 }
-.mugs-cinema-text-bg h1{
+
+.mugs-cinema-text-bg h1 {
     font-size: 70px;
     background: #fff;
     line-height: 100px;
     color: #000;
 }
-.mugs-cinema-text-bg p{
+
+.mugs-cinema-text-bg p {
     padding: 15px;
 }
-.mugs-cinema-text-bg img{
+
+.mugs-cinema-text-bg img {
     width: 100%;
 }
-.mugs-cinema-img{
+
+.mugs-cinema-img {
     width: 50%;
     margin: auto;
 }
-.mugs-cinema-img-cont{
+
+.mugs-cinema-img-cont {
     margin: auto;
 }
+
+
 /* for logo  */
-.ABJ-logo{
+
+.ABJ-logo {
     position: absolute;
     margin: 0;
     padding: 0;
