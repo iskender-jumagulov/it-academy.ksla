@@ -287,8 +287,9 @@ iframe {
     color: black;
 }
 
-.students {
-    margin: auto;
+.students,
+.students p .students {
+    color: #C0C0C0;
 }
 
 .students img {
@@ -439,7 +440,7 @@ body .telegram:hover {
 }
 
 .section-students {
-    padding: 15px;
+    padding: 50px;
 }
 
 .top-students {
