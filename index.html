@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-dws.css">
-    <link rel="stylesheet" href="style-offer.css">
+    <link rel="stylesheet" href="css/style-dws.css">
+    <link rel="stylesheet" href="css/style-offer.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -210,36 +212,33 @@
     </section>
     <section class="section section-partners section5">
         <h2>Наши партнеры</h2>
-        <hr class="icon-hr">
-        <div class="top-partners">
-            <img class="slides-arrow" src="images/left-arrow.svg">
-            <div class="slide">
-                <div class="partners">
-                    <a href="https://edu.gov.kg/ru/"><img src="images/bga-arc.png" alt="photos"></a>
+        <hr class="icon-hr" style="margin-bottom: 15px;">
+       <!-- partial:index.partial.html -->
+<div class="owl-slider">
+<div id="carousel" class="owl-carousel">
+	<div class="item">
+		<img class="owl-lazy" data-src="https://elated-kowalevski-5de082.netlify.app/images/bga-arc.png" alt="">
+	</div>
+	<div class="item">
+		<img class="owl-lazy" data-src="https://elated-kowalevski-5de082.netlify.app/images/min-obr.png" alt="">
+	</div>
+	<div class="item">
+		<img class="owl-lazy" data-src="https://elated-kowalevski-5de082.netlify.app/images/megaline.png" alt="">
+	</div>
+	<div class="item">
+		<img class="owl-lazy" data-src="https://elated-kowalevski-5de082.netlify.app/images/bga-arc.png" alt="">
+	</div>
+	<div class="item">
+		<img class="owl-lazy" data-src="https://elated-kowalevski-5de082.netlify.app/images/min-obr.png" alt="">
+	</div>
+	<div class="item">
+		<img class="owl-lazy" data-src="https://elated-kowalevski-5de082.netlify.app/images/megaline.png" alt="">
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
 
-                </div>
-                <div class="partners">
-                    <a href="https://edu.gov.kg/ru/"><img src="images/min-obr.png" alt="photos"></a>
-                </div>
-                <div class="partners">
-                    <a href="https://edu.gov.kg/ru/"><img src="images/megaline.png" alt="photos"></a>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="partners">
-                    <a href="https://edu.gov.kg/ru/"><img src="images/noresult.png" alt="photos"></a>
-
-                </div>
-                <div class="partners">
-                    <a href="https://edu.gov.kg/ru/"><img src="images/noresult.png" alt="photos"></a>
-                </div>
-                <div class="partners">
-                    <a href="https://edu.gov.kg/ru/"><img src="images/noresult.png" alt="photos"></a>
-                </div>
-            </div>
-
-            <img class="slides-arrow" src="images/right-arrow.svg">
-        </div>
     </section>
     <footer class="footer">
         <div class="social-networks">
@@ -283,9 +282,46 @@
 
 
     </footer>
-    <script src="script.js"></script>
-    <script src="particles.min.js"></script>
-    <script src="app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+    	jQuery("#carousel").owlCarousel({
+  autoplay: true,
+  lazyLoad: true,
+  loop: true,
+  margin: 20,
+   /*
+  animateOut: 'fadeOut',
+  animateIn: 'fadeIn',
+  */
+  responsiveClass: true,
+  autoHeight: true,
+  autoplayTimeout: 4000,
+  smartSpeed: 1000,
+  nav: true,
+  responsive: {
+    0: {
+      items: 1
+    },
+
+    600: {
+      items: 3
+    },
+
+    1024: {
+      items: 4
+    },
+
+    1366: {
+      items: 4
+    }
+  }
+});
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
